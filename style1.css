@@ -1,0 +1,79 @@
+.container-fluid {
+  margin-right: -13px;
+  margin-left: -13px;
+}
+.bg-dark {
+  height: 200%;
+}
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.25rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+.list-group-item {
+  border: none;
+}
+.content-header {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.card-header {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.75rem 1.25rem;
+  position: relative;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.card-primary:not(.card-outline) > .card-header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.card-primary {
+  margin-top: 20px;
+  margin: 10px;
+}
+.form-group {
+  margin-top: 10px;
+}
+.form-check-label {
+  margin-bottom: 0;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 0 solid rgba(0, 0, 0, 0.125);
+}
+
+.form-check {
+  margin-top: 0px;
+}
